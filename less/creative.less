@@ -332,6 +332,20 @@ header {
     padding: 15px 30px;
 }
 
+.item-image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%; /* here the desired aspect ratio */
+}
+.item-image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
